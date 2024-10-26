@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import WhatsAppComponent from './components/WhatsAppComponent';
+import './css/App.css';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <button onClick={() => window.open('https://www.instagram.com', '_blank')}>Instagram</button>
         </div>
       </header>
+      <WhatsAppComponent />
     </div>
   );
 }
