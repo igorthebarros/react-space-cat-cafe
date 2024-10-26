@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: #f4f4f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header {
+  margin: 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.shop-name {
+  font-family: 'Georgia', serif;
+  font-size: 3em;
+  color: #3c2f2f;
+}
+
+.shop-social-links {
+  display: flex;
+  flex-direction: column;  /* Stack buttons vertically */
+  align-items: center;     /* Center align the buttons */
+}
+
+.shop-social-links button {
+  background-color: #cb3539;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 8px 0;            /* Add vertical spacing between buttons */
+  cursor: pointer;
+  font-size: 1em;
+  width: 150px;             /* Optional: make buttons a fixed width */
+  text-align: center;
+}
+
+.shop-social-links button:hover {
+  background-color: #a51616;
+}
