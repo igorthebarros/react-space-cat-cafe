@@ -14,7 +14,7 @@ const WhatsApp = () => {
     }
 
     const handleYesClick = () => {
-        window.open('https://api.whatsapp.com/send/?phone=5541988258888&text=Oi%2C+Syella!&type=phone_number&app_absent=0')
+        window.open('https://api.whatsapp.com/send/?phone=5541988258888&text=Oi%2C+gostaria+de+fazer+um+pedido!&type=phone_number&app_absent=0')
         setShowPopUp(false)
     }
 
@@ -31,7 +31,7 @@ const WhatsApp = () => {
             </button>
             {showPopUp && (
                 <div className='popUp'>
-                    <p>Quer me chamar direto no WhatsApp?</p>
+                    <p>Quer fazer o pedido direto no WhatsApp?</p>
                     <button className='popUp-button' onClick={handleYesClick}>Sim</button>
                     <button className='popUp-button' onClick={handleNoClick}>Não</button>
                 </div>

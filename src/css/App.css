@@ -13,14 +13,17 @@
 }
 
 .logo {
-  width: 150px;
-  margin-bottom: 20px;
+  width: 300px;
 }
 
 .shop-name {
   font-family: 'Georgia', serif;
   font-size: 3em;
-  color: #3c2f2f;
+  color: #a51616;
+}
+
+.shop-location {
+  color: #a51616;
 }
 
 .shop-social-links {
